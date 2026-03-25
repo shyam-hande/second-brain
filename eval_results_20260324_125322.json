@@ -1,0 +1,35 @@
+[
+  {
+    "system_name": "Baseline (No RAG)",
+    "total_cases": 3,
+    "passed_cases": 3,
+    "avg_score": 0.9,
+    "avg_latency": 7.82,
+    "scores_by_category": {
+      "coding": 0.9
+    },
+    "pass_rate": 1.0
+  },
+  {
+    "system_name": "RAG System",
+    "total_cases": 5,
+    "passed_cases": 5,
+    "avg_score": 0.94,
+    "avg_latency": 5.89,
+    "scores_by_category": {
+      "coding": 0.94
+    },
+    "pass_rate": 1.0
+  },
+  {
+    "system_name": "Multi-Agent System",
+    "total_cases": 3,
+    "passed_cases": 3,
+    "avg_score": 1.0,
+    "avg_latency": 19.95,
+    "scores_by_category": {
+      "recipe": 1.0
+    },
+    "pass_rate": 1.0
+  }
+]
